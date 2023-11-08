@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --text_color:black;
+}
+html,body{
+  font-family:'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: black; */
+}
+.flex{
+  display: flex;
+}
+a{
+  text-decoration: none;
+}
+ul,li,ul li{
+  list-style-type: none;
+}
+#humbuger_menu{
+  display: none;
+}
+/* ===================%%%%%%%%%%%%%%% header logo css %%%%%%%%%%%%%%================= */
+/* ===================%%%%%%%%%%%%%%% header nav, ul , li css%%%%%%%%%%%%%%================= */
+header .nav_links{
+  justify-content: space-between;
+  align-items: center;
+}
+header ul {
+  margin: 1rem;
+}
+header ul > li{
+ margin: 0.3rem;
+ padding: 0.2rem 0.1rem;
+}
+header ul > li a{
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.5rem;
+  color: var(--text_color);
+  font-weight: 500;
+
+}
+/* active and hover css */
+header ul > li a:hover,
+header ul > li .active{
+  background-color: green;
+}
+/* ===================%%%%%%%%%%%%%%% main section css %%%%%%%%%%%%%%================= */
+#hero_section{
+  margin: 4rem auto;
+  justify-content: center;
+}
+/* #hero_section .left{
+  
+} */
+
+#hero_section .right  .banner_img{
+  /* border: 2px solid rgb(81, 0, 255); */
+  width: 50rem;
+  height: 25rem ;
+}
+#hero_section .right .banner_img img{
+  width: 100%;
+  /* border: 2px solid red; */
+}
+/* ===================%%%%%%%%%%%%%%% service section css %%%%%%%%%%%%%%================= */
+#services{
+  border: 2px solid red;
+}
+.service_section_title{
+  border: 2px solid chartreuse;
+}
+.service_section_title h5,
+.service_section_title h6{
+text-align: center;
+}
+/* -- service card--- */
+/* -- service card box --- */
+#services .card{
+ width: 25rem;
+ height: 20rem;
+}
+/* -- service card box images--- */
+#services .card img{
+  width: 55%;
+}
