@@ -9,6 +9,7 @@
 html,body{
   font-family:'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* background-color: black; */
+  background-color: rgb(88, 225, 150);
 }
 .flex{
   display: flex;
@@ -57,13 +58,16 @@ header ul > li .active{
 } */
 
 #hero_section .right  .banner_img{
-  /* border: 2px solid rgb(81, 0, 255); */
+  border: 2px solid rgb(81, 0, 255);
   width: 50rem;
   height: 25rem ;
 }
 #hero_section .right .banner_img img{
-  width: 100%;
-  /* border: 2px solid red; */
+  width: 80%;
+  display: block;
+  /* margin: auto; */
+  float: right;
+  border: 2px solid red;
 }
 /* ===================%%%%%%%%%%%%%%% service section css %%%%%%%%%%%%%%================= */
 #services{
